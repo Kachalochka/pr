@@ -1,0 +1,1685 @@
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.layout {
+    display: block;
+    width: 1170px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+}
+
+#header {
+    display: block;
+    width: inherit;
+    height: 80px;
+    background-color: #0d0b11;
+}
+
+#header .layout a img {
+    width: 186px;
+    height: 24px;
+    float: left;
+    padding-top: 30px;
+}
+
+#header .layout .nav {
+    display: inline-flex;
+    flex-direction: row;
+    height: 14px;
+    width: 82%;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#header .layout .nav ul {
+    align-items: center;
+    margin-top: 26px;
+}
+
+#header .layout .nav li {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 84px;
+}
+
+#header .layout .nav a {
+    text-decoration: none;
+}
+
+#header .layout .nav h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+}
+
+#main .first {
+    width: inherit;
+    height: 472px;
+    display: block;
+    background-color: #161828;
+    position: relative;
+    margin: 0 0 0 0;
+}
+
+#main .first .bigcub img {
+    width: 900px;
+    height: 428px;
+    float: left;
+    padding-top: 44px;
+    padding-left: 12px;
+    position: absolute;
+    z-index: 1;
+}
+
+#main .first .smallcub img {
+    width: 484px;
+    height: 368px;
+    float: right;
+    padding: 56px 0 0 0;
+    position: relative;
+    z-index: 2;
+}
+
+#main .first .kita {
+    display: block;
+    float: left;
+    margin: 0 0 0 0;
+    position: absolute;
+    z-index: 3;
+}
+
+#main .first .kita h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 122px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#main .first .kita h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#main .first .kita button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    width: 145px;
+    height: 54px;
+    background-color: #ea5b58;
+    border-style: solid none;
+    border-color: #ea5b58;
+    border-radius: 3px;
+    margin-top: 64px;
+}
+
+#main .services {
+    width: inherit;
+    height: auto;
+    background-color: #475a85;
+    margin-left: 0;
+}
+
+#main .services .layout h2 {
+    width: inherit;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0 0 0 0;
+    padding-top: 70px;
+    text-align: center;
+}
+
+#main .services .layout h4 {
+    width: inherit;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0 0 0 0;
+    padding-top: 22px;
+    text-align: center;
+}
+
+#main .services .layout .line {
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 460px;
+    margin-bottom: 6px;
+    width: 255px;
+    height: 1px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+#main .services .layout .line:before {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: #ffffff;
+}
+
+#main .services .layout .line:after {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: #ffffff;
+}
+
+#main .services .layout .title {
+    display: inline-block;
+    width: inherit;
+}
+
+#main .services .layout .title li {
+    width: 224px;
+    height: 220px;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    margin: 70px 28px 100px 28px;
+}
+
+#main .services .layout .title li img {
+    width: 41px;
+    height: 41px
+}
+
+#main .services .layout .title li h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 34px 0 14px 0;
+}
+
+#main .services .layout .title li p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#main .services .layout .title li a button {
+    width: 87px;
+    height: 33px;
+    background-color: #ea5b58;
+    border-style: solid none;
+    border-color: #ea5b58;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+#main .works {
+    width: inherit;
+    height: auto;
+}
+
+#main .works .fon {
+    display: block;
+    width: inherit;
+    height: auto;
+    position: relative;
+    margin: 0;
+}
+
+#main .works .fon1 {
+    width: 100%;
+    height: 426px;
+    position: absolute;
+    background-image: url("../images/fon1.png");
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+#main .works .fon2 {
+    width: 50%;
+    height: 426px;
+    position: relative;
+    margin: 0 auto 0 auto;
+    background-image: url("../images/fon2.png");
+    background-repeat: repeat;
+    z-index: 2;
+}
+
+#main .works .fon2 h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 160px;
+}
+
+#main .works .fon2 h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#main .our {
+    width: inherit;
+    height: auto;
+    background-color: #ffffff;
+}
+
+#main .our .layout h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #323232;
+    text-align: center;
+    margin: 88px auto 0 auto;
+}
+
+#main .our .layout h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #323232;
+    text-align: center;
+    margin: 14px auto 0 auto;
+}
+
+#main .our .layout .line {
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 460px;
+    margin-bottom: 6px;
+    width: 255px;
+    height: 1px;
+    background-color: #323232;
+    text-align: center;
+    position: relative;
+}
+
+#main .our .line:before {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: #323232;
+}
+
+#main .our .line:after {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: #323232;
+}
+
+#main #menu-tabs {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 88px;
+    margin-bottom: 40px;
+    padding-left: 0;
+}
+
+#menu-tabs li {
+    display: inline-block;
+}
+
+#menu-tabs li:hover {
+    color: #475a85;
+}
+
+#main #menu-tabs .tabs {
+    display: inline-block;
+}
+
+#main #menu-tabs a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #323232;
+}
+
+#main .layout .tab-content ul {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 0
+}
+
+#main .layout .tab-content ul li {
+    display: inline-block;
+    overflow: hidden;
+    width: 370px;
+    height: 290px;
+    background: #7b7b7b;
+    margin: 0 16px 16px 0;
+}
+
+#main .layout .tab-content ul li h6 {
+    display: none;
+}
+
+#main .layout .tab-content ul li p {
+    display: none;
+}
+
+#main .layout .tab-content ul li img {
+    display: none;
+}
+
+#main .layout .tab-content ul li:hover {
+    display: inline-block;
+    width: 350px;
+    height: 290px;
+    padding: 0 10px;
+    background: #506083;
+    margin: 0 16px 16px 0;
+}
+
+#main .layout .tab-content ul li:hover h6 {
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 74px;
+    text-align: center;
+}
+
+#main .layout .tab-content ul li:hover p {
+    display: block;
+    width: 100%;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 auto;
+    text-align: center;
+}
+
+#main .layout .tab-content ul li:hover img {
+    display: block;
+    width: 44px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#main .all {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#main .all a {
+    text-decoration: none;
+}
+
+#main .all a h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #323232;
+    text-align: center;
+    width: 65px;
+}
+
+#main .all a img {
+    display: block;
+    width: 58px;
+    padding-top: 12px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+#main .happy h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #323232;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+#main .happy p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #323232;
+    text-align: center;
+    padding-top: 22px;
+    margin: 0;
+}
+
+#main .our .happy .line {
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 460px;
+    margin-bottom: 6px;
+    width: 255px;
+    height: 1px;
+    background-color: #323232;
+    text-align: center;
+    position: relative;
+}
+
+#main .our .line:before {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: #323232;
+}
+
+#main .our .line:after {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: #323232;
+}
+
+#main .slider {
+    display: block;
+    width: inherit;
+}
+
+#main .slider .bxslider2 {
+    width: inherit;
+    background-color: #ffffff;
+    border: none;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#main .slider .bxslider2 img.round {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    border: 6px solid #ffffff;
+    box-shadow: 0 0 7px #666;
+    margin: 5px 10px 5px 10px;
+    overflow: hidden;
+}
+
+#main .slider .bxslider2 li {
+    display: inline-block;
+    overflow: hidden;
+}
+
+#main .slider .bxslider2 .text {
+    display: inline-block;
+    width: 80%;
+    float: left;
+}
+
+#main .slider .bxslider2 .text .p1 {
+    display: inline-block;
+    width: 20px;
+    margin-top: 20px;
+    margin-bottom: 178px;
+    margin-left: 90px;
+    overflow: hidden;
+    color: #323232;
+    font-family: Open Sans, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    float: left;
+
+}
+
+#main .slider .bxslider2 .text em {
+    width: 60%;
+    float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #323232;
+    margin-left: 14px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#main .slider .bxslider2 .text em strong {
+    display: block;
+    width: 110px;
+    overflow: hidden;
+    margin-top: 14px;
+    color: #323232;
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    font-weight: Bold;
+    float: left;
+}
+
+#main .our .get {
+    display: block;
+    height: auto;
+}
+
+#main .our .get .fon3 {
+    width: 100%;
+    height: 420px;
+    margin: 0 auto;
+    background-image: url("../images/fon1.png");
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+#main .our .get h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 166px;
+    margin: 0 auto;
+}
+
+#main .our .get h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#main .map {
+    display: block;
+    width: inherit;
+}
+
+#footer {
+    display: block;
+    width: inherit;
+    height: auto;
+    background-color: #475a85;
+}
+
+#footer .layout h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+#footer .layout h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+#footer .layout .line {
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 460px;
+    margin-bottom: 6px;
+    width: 255px;
+    height: 1px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+#footer .layout .line:before {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: #ffffff;
+}
+
+#footer .layout .line:after {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: #ffffff;
+}
+
+#footer .layout .cont .office {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+#footer .layout .cont .office h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 18px;
+    text-align: left;
+}
+
+#footer .layout .cont .office p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 18px;
+}
+
+#footer .layout .cont .office ul {
+    display: block;
+    padding-left: 0;
+}
+
+#footer .layout .cont .office ul li {
+    display: inline-block;
+    width: inherit;
+    list-style-type: none;
+    margin: 15px 0 15px 0;
+}
+
+#footer .layout .cont .office ul li img {
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+#footer .layout .cont .office ul li p {
+    float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1em;
+    margin: 0;
+}
+
+#footer .layout .cont .office .soc img {
+    width: 36px;
+    margin-right: 18px;
+}
+
+#footer .layout .cont form {
+    float: left;
+    width: 50%;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+#footer .layout .cont form p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #747474;
+    float: left;
+    margin: 10px 0 10px 0;
+}
+
+#footer .layout .cont form .n {
+    margin-right: 20px;
+}
+
+#footer .layout .cont form .e {
+    float: left;
+}
+
+#footer .layout .cont form .m {
+    float: left;
+}
+
+#footer .layout .cont form input {
+    width: 252px;
+    height: 60px;
+    border-radius: 3px;
+    padding-left: 24px;
+}
+
+#footer .layout .cont form textarea {
+    display: block;
+    width: 568px;
+    border-radius: 3px;
+    float: right;
+    padding: 10px 0 10px 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    color: #747474;
+}
+
+#footer .layout .cont form button {
+    background: #ea5b58;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #ea5b58;
+    float: left;
+    margin-right: 4px;
+    width: 158px;
+    height: 60px;
+}
+
+#back-top {
+    position: fixed;
+    right: 5%;
+    bottom: 25%;
+}
+
+#back-top span {
+    width: 58px;
+    height: 58px;
+    display: block;
+    margin-bottom: -14px;
+    background: #000;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#footer .c {
+    width: inherit;
+    height: auto;
+    display: block;
+    background-color: #161828;
+}
+
+#footer .c p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #76777f;
+    text-align: center;
+    padding-top: 56px;
+}
+
+#footer .c img.displayed {
+    margin-top: 24px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/****************************************************************              PC              ***************************************************/
+@media (min-width: 978px) and (max-width: 1169px) {
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    .layout {
+        width: 900px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    #header {
+        height: auto;
+    }
+
+    #header .layout .nav {
+        width: 100%;
+        height: auto;
+        display: block;
+        float: left;
+        text-align: center;
+    }
+
+    #main {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #main .first .layout .bigcub .kita h1 {
+        font-size: 20px;
+    }
+
+    #main .first .layout .bigcub .kita h2 {
+        font-size: 18px;
+    }
+
+    #main .first .layout .kita button {
+        font-size: 14px;
+    }
+
+    #main .services .layout h2 {
+        font-size: 26px;
+    }
+
+    #main .services .layout h4 {
+        font-size: 14px;
+    }
+
+    #main .services .layout .line {
+        text-align: center;
+        margin-left: 324px;
+        margin-top: 24px;
+    }
+
+    #main .services .layout .title {
+        width: 100%;
+    }
+
+    #main .services .layout .title ul {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #main .services .layout .title ul li {
+        display: inline-block;
+        width: 180px;
+        margin: 16px;
+    }
+
+    #main .services .layout .title ul li h6 {
+        font-size: 14px;
+    }
+
+    #main .services .layout .title ul li p {
+        font-size: 10px;
+    }
+
+    #main .works .fon .fon {
+        height: 360px;
+    }
+
+    #main .works .fon .fon1 {
+        height: 360px;
+    }
+
+    #main .works .fon .fon2 {
+        height: 360px;
+    }
+
+    #main .works .fon .fon2 h3 {
+        font-size: 36px;
+        padding-top: 140px;
+    }
+
+    #main .works .fon .fon2 h5 {
+        font-size: 18px;
+    }
+
+    #main .our .layout .line {
+        text-align: center;
+        margin-left: 324px;
+        margin-top: 24px;
+    }
+
+    #main .our .layout .tab-content ul {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #main .our .layout .tab-content ul li {
+        width: 31%;
+        margin: 8px 8px;
+    }
+
+    #main .our .layout .tab-content ul li:hover {
+        width: 29%;
+    }
+
+    #main .our .layout .tab-content ul li:hover h6 {
+        font-size: 16px;
+    }
+
+    #main .our .layout .tab-content ul li:hover p {
+        font-size: 14px;
+    }
+
+    #main .our .layout .happy h4 {
+        font-size: 24px;
+    }
+
+    #main .our .layout .happy p {
+        font-size: 14px;
+    }
+
+    #main .slider .bxslider2 .text {
+        width: 70%;
+        text-align: justify;
+    }
+
+    #main .slider .bxslider2 .text .p1 {
+        display: inline-block;
+        margin: 30px 0 0 0;
+        font-size: 24px;
+        height: 40px;
+    }
+
+    #main .slider .bxslider2 .text em {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    #main .slider .bxslider2 .text em h6 {
+        margin-top: 12px;
+    }
+
+    #main .our .get .fon3 {
+        height: 380px;
+    }
+
+    #main .our .get .fon3 h3 {
+        font-size: 34px;
+    }
+
+    #main .our .get .fon3 h5 {
+        font-size: 18px;
+    }
+
+    #footer .layout .line {
+        text-align: center;
+        margin-left: 324px;
+        margin-top: 24px;
+    }
+
+    #footer .layout .cont .office {
+        width: 50%;
+    }
+
+    #footer .layout .cont form {
+        width: 50%;
+    }
+
+    #footer .layout .cont form .n {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    #footer .layout .cont form .e {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    #footer .layout .cont form .m textarea {
+        float: right;
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+}
+
+/****************************************************************              TABLET              ***********************************************/
+@media (min-width: 768px) and (max-width: 977px) {
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    .layout {
+        width: 700px;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    #header {
+        height: auto;
+    }
+
+    #header .layout .nav {
+        width: 100%;
+        height: auto;
+        display: block;
+        float: left;
+        margin: 0 0 40px 0;
+    }
+
+    #main {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #main .first .layout .bigcub .kita {
+        display: block;
+        width: 484px;
+        height: 368px;
+        float: right;
+        padding: 46px 0 0 300px;
+        position: absolute;
+    }
+
+    #main .first .layout .bigcub .kita h1 {
+        font-size: 20px;
+        color: black;
+    }
+
+    #main .first .layout .bigcub .kita h2 {
+        font-size: 18px;
+        color: black;
+    }
+
+    #main .first .layout .kita button {
+        font-size: 14px;
+        color: black;
+    }
+
+    #main .services .layout h2 {
+        font-size: 26px;
+    }
+
+    #main .services .layout h4 {
+        font-size: 14px;
+    }
+
+    #main .services .layout .line {
+        text-align: center;
+        margin-left: 226px;
+        margin-top: 24px;
+    }
+
+    #main .services .layout .title {
+        width: 100%;
+    }
+
+    #main .services .layout .title ul {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #main .services .layout .title ul li {
+        display: inline-block;
+        width: 220px;
+        margin: 46px;
+    }
+
+    #main .works .fon .fon {
+        height: 240px;
+    }
+
+    #main .works .fon .fon1 {
+        height: 240px;
+    }
+
+    #main .works .fon .fon2 {
+        height: 240px;
+    }
+
+    #main .works .fon .fon2 h3 {
+        padding-top: 90px;
+    }
+
+    #main .our .layout .line {
+        text-align: center;
+        margin-left: 226px;
+        margin-top: 24px;
+    }
+
+    #main .our .layout #menu-tabs {
+        margin-top: 40px;
+    }
+
+    #main .our .layout .tab-content ul {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #main .our .layout .tab-content ul li {
+        width: 46%;
+        margin: 10px 10px 10px 16px;
+    }
+
+    #main .our .layout .tab-content ul li:hover {
+        width: 43%;
+    }
+
+    #main .our .layout .happy h4 {
+        margin-top: 50px;
+    }
+
+    #main .slider .bxslider2 .text {
+        width: 60%;
+        text-align: justify;
+    }
+
+    #main .slider .bxslider2 .text .p1 {
+        display: inline-block;
+        margin: 30px 0 0 0;
+        font-size: 24px;
+        height: 40px;
+    }
+
+    #main .slider .bxslider2 .text em {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    #main .slider .bxslider2 .text em h6 {
+        margin-top: 12px;
+    }
+
+    #main .our .get .fon3 {
+        height: 220px;
+    }
+
+    #main .our .get .fon3 h3 {
+        padding-top: 70px;
+        font-size: 32px;
+    }
+
+    #footer .layout h3 {
+        padding-top: 60px;
+        margin-top: 0;
+    }
+
+    #footer .layout .line {
+        text-align: center;
+        margin-left: 226px;
+        margin-top: 24px;
+    }
+
+    #footer .layout .cont .office {
+        display: block;
+        width: 46%;
+    }
+
+    #footer .layout .cont .office h6 {
+        font-size: 14px;
+    }
+
+    #footer .layout .cont .office p {
+        font-size: 14px;
+    }
+
+    #footer .layout .cont .office ul li p {
+        font-size: 14px;
+    }
+
+    #footer .layout .cont form {
+        display: block;
+        width: 50%;
+    }
+
+    #footer .layout .cont form .n {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    #footer .layout .cont form input {
+        width: 350px;
+    }
+
+    #footer .layout .cont form .m textarea {
+        float: right;
+        width: 372px;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+}
+
+/****************************************************************              MOBILE              ***********************************************/
+@media (min-width: 300px) and (max-width: 767px) {
+    .wrapper {
+        width: 100%;
+        position: relative;
+    }
+
+    .layout {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #header {
+        position: relative;
+        height: 80px;
+    }
+
+    #hamburger {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin: 16px 16px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        float: right;
+        z-index: 1000;
+    }
+
+    #hamburger span {
+        display: block;
+        position: absolute;
+        height: 9px;
+        width: 100%;
+        background: gray;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    #hamburger span.active {
+        display: block;
+        position: absolute;
+        height: 9px;
+        width: 100%;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    #hamburger span:nth-child(1) {
+        top: 0px;
+    }
+
+    #hamburger span:nth-child(2) {
+        top: 18px;
+    }
+
+    #hamburger span:nth-child(3) {
+        top: 36px;
+    }
+
+    #hamburger.open span:nth-child(1) {
+        top: 18px;
+        left: -20px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        background-color: #475a85;
+    }
+
+    #hamburger.open span:nth-child(2) {
+        top: 18px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(-90deg);
+        background-color: #475a85;
+    }
+
+    #hamburger.open span:nth-child(3) {
+        top: 18px;
+        left: -10px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(-90deg);
+        background-color: #475a85;
+    }
+
+    #header .layout .nav {
+        display: none;
+    }
+
+    #header .layout .nav ul {
+        margin: 0;
+
+    }
+
+    #header .layout .nav li {
+        display: block;
+        width: 100px;
+        margin: 1px 0;
+        border-radius: 3px;
+        background-color: gray;
+        filter: alpha(opacity=30);
+        -moz-opacity: 0.3;
+        opacity: 0.3;
+        float: right;
+    }
+
+    #header .layout .nav li:hover {
+        position: relative;
+        background-color: cornflowerblue;
+        filter: alpha(opacity=30);
+        -moz-opacity: 0.3;
+        opacity: 0.3;
+    }
+
+    #header .layout .nav.active {
+        display: block;
+        width: 100px;
+        position: absolute;
+        right: 0;
+        z-index: 100;
+        border-radius: 0 0 8px 8px;
+        margin: 80px 0;
+    }
+
+    #header .layout .nav li a {
+        color: #ffffff;
+        font-family: Open Sans, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #main {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #main .first {
+        height: auto;
+    }
+
+    #main .first .layout .bigcub img {
+        display: none;
+    }
+
+    #main .first .layout .smallcub img {
+        display: none;
+    }
+
+    #main .first .layout .bigcub .kita {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    #main .first .layout .bigcub .kita h1 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    #main .first .layout .bigcub .kita h2 {
+        font-size: 18px;
+        color: white;
+        text-align: center;
+    }
+
+    #main .first .layout .kita button {
+        font-size: 14px;
+        color: black;
+        width: 50%;
+        margin: 10% 25%;
+    }
+
+    #main .services .layout h2 {
+        font-size: 26px;
+    }
+
+    #main .services .layout h4 {
+        font-size: 14px;
+    }
+
+    #main .services .layout .line {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #main .services .layout .title {
+        width: 100%;
+    }
+
+    #main .services .layout .title ul {
+        display: block;
+        padding-left: 0;
+    }
+
+    #main .services .layout .title ul li {
+        display: block;
+        width: 90%;
+        margin: 16px;
+    }
+
+    #main .works .fon .fon {
+        height: 140px;
+    }
+
+    #main .works .fon .fon1 {
+        height: 140px;
+    }
+
+    #main .works .fon .fon2 {
+        height: 140px;
+    }
+
+    #main .works .fon .fon2 h3 {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    #main .works .fon .fon2 h5 {
+        font-size: 16px;
+    }
+
+    #main .our .layout .line {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #main .our .layout h3 {
+        width: 80%;
+        margin-top: 40px;
+        font-size: 24px;
+    }
+
+    #main .our .layout #menu-tabs {
+        margin-top: 40px;
+    }
+
+    #main .our .layout .tab-content {
+        height: auto;
+    }
+
+    #main .our .layout .tab-content ul {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #main .layout .tab-content ul li {
+        display: block;
+        width: 70%;
+        height: auto;
+        background: #506083;
+        margin: 10px auto;
+    }
+
+    #main .layout .tab-content ul li:hover {
+        display: none;
+    }
+
+    #main .layout .tab-content ul li h6 {
+        display: block;
+        overflow: hidden;
+        color: #ffffff;
+        padding-top: 20px;
+        font-size: 24px;
+    }
+
+    #main .layout .tab-content ul li p {
+        display: block;
+        color: #ffffff;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    #main .layout .tab-content ul li img {
+        display: block;
+        width: 20%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #main .our .layout .happy h4 {
+        margin-top: 50px;
+    }
+
+    #main .slider .bxslider2 ul li img {
+        display: block;
+        width: 100%;
+        margin-left: 500px;
+    }
+
+    #main .slider .bxslider2 .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #main .slider .bxslider2 .text .p1 {
+        display: none;
+    }
+
+    #main .slider .bxslider2 .text em {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    #main .slider .bxslider2 .text em h6 {
+        margin-top: 12px;
+    }
+
+    #main .our .get .fon3 {
+        height: 220px;
+    }
+
+    #main .our .get .fon3 h3 {
+        padding-top: 70px;
+        font-size: 32px;
+    }
+
+    #footer .layout h3 {
+        padding-top: 60px;
+        margin-top: 0;
+    }
+
+    #footer .layout .line {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    #footer .layout .cont .office {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer .layout .cont .office h6 {
+        text-align: center;
+    }
+
+    #footer .layout .cont form {
+        display: block;
+        width: 100%;
+    }
+
+    #footer .layout .cont form .n {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    #footer .layout .cont form .e {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    #footer .layout .cont form .m {
+        margin: 10px 0;
+        width: 100%;
+        float: left;
+    }
+
+    #footer .layout .cont form input {
+        width: 100%;
+    }
+
+    #footer .layout .cont form .m textarea {
+        float: left;
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    #footer .layout .cont form button {
+        width: 100%;
+    }
+}
